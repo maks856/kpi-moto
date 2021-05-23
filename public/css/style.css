@@ -173,6 +173,11 @@ footer .social{
     flex-direction: row;
     gap: 15px;
 }
+@media only screen and (max-width: 960px){
+    .social{
+        justify-content: center;
+    }
+}
 footer .heading, footer .logo{
     font-weight: bold;
     font-size: 25px;
@@ -180,9 +185,17 @@ footer .heading, footer .logo{
     text-transform: uppercase;
     margin-bottom: 30px;
 }
+@media (max-width: 960px) {
+    footer .heading{
+        margin: 30px 0 0 0;
+    }
+    footer .logo{
+        margin: 30px 0 0 0;
+    }
+}
 footer .social img{
     filter: brightness(0) invert(1);
-    width: 30xp;
+    width: 30px;
     height: 30px;
 }
 footer a:hover{
@@ -200,6 +213,7 @@ footer .contact-footer p{
 }
 footer .subscribe input{
     width: 220px;
+    margin-top: 15px;
 }
 footer .subscribe .button-view, .contactUs .button-view{
     outline: none;
@@ -215,7 +229,6 @@ footer .subscribe .button-view:hover, .contactUs .button-view:hover{
     background: #fff;
     color: #0f0f0f;
 }
-
 
 hr{
     opacity: 1;
@@ -318,4 +331,17 @@ hr{
         width: 100%;
     }
 
+}
+@media only screen and (max-width: 960px) {
+    footer {
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 960px) {
+    .short-about{
+        width: 100%;
+    }
+}
+.short-about p{
+    margin-top: 16px;
 }
