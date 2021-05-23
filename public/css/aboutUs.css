@@ -1,0 +1,72 @@
+header{
+    background: #101010 !important;
+}
+.aboutUs{
+    background: url(../src/backgroundAboutUs.png) center center no-repeat;
+    background-size: cover;
+    padding: 120px 0;
+    color: #fff;
+    text-transform: uppercase;
+}
+.aboutUs .heading{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.aboutUs .founder{
+    width: 100%;
+    max-width: 400px;
+}
+.aboutUs .page-name h1{
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 90px;
+}
+.aboutUs .page-name hr{
+    width: 30%;
+    opacity: 1;
+    border: 2px solid #B6E925;
+    background: #B6E925;
+}
+.aboutUs .text .description p{
+    font-size: 14px;
+    line-height: 21px;
+}
+.aboutUs .page-info{
+    margin-bottom: 100px;
+}
+.video iframe{
+    width: 100%;
+    height: 600px;
+}
+.history{
+    margin-top: -5px;
+}
+
+.history .text .heading, .latest .text .heading{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 59px;
+    color: #FFFFFF;
+}
+.history .text .description, .latest .text .description{
+    font-size: 16px;
+    line-height: 24px;
+    color: #D2D2D2;
+    text-transform: uppercase;
+}
+.history .text .green-text, .history .text .heading, .latest .text{
+    text-align: center;
+}
+.history .text .green-text p, .latest .text .green-text p{
+    line-height: 30px;
+    margin: 20px 0 0;
+}
+.history .historyImg{
+    width: 100%;
+    max-width: 550px;
+    float: right;
+}
+.hero{
+    background: url(../src/backgroundBMW.png) center center no-repeat;
+    /*box-shadow:inset 0 0 0 2000px rgba(15, 15, 15, 1);*/
+}

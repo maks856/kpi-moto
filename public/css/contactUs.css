@@ -1,0 +1,91 @@
+header{
+    background: #101010 !important;
+}
+.contactUs{
+    background: url(../src/backgroundContact.png) center center no-repeat;
+    background-size: cover;
+    /* height: 700px; */
+    /* padding: 160px 0 210px; */
+    padding: 120px 0 0;
+    color: #fff;
+    text-transform: uppercase;
+}
+.contactUs .heading{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contactUs .page-name h1{
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 90px;
+}
+.contactUs .page-name hr{
+    width: 30%;
+    opacity: 1;
+    background: #B6E925;
+    border: 2px solid #B6E925;
+
+}
+.contactUs .text .description p{
+    font-size: 14px;
+    line-height: 21px;
+}
+.contactUs .page-info{
+    margin-bottom: 100px;
+}
+.contactUs .map{
+    width: 100%;
+    max-width: 640px;
+    object-fit: cover;
+}
+.contactUs .address .heading h1{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 44px;
+    text-align: left;
+}
+.contactUs .address .description p{
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 30px;
+}
+.contactUs .detail-address .info{
+    display: flex;
+}
+.contactUs .detail-address .info p{
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.contactUs .social{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.contactUs .social img{
+    filter: brightness(0) invert(1);
+    width: 30xp;
+    height: 30px;
+}
+.contactUs .social img:hover{
+    opacity: .7;
+}
+.contactUs .form{
+    margin: 70px 0;
+}
+.contactUs .form .text .heading h1{
+    text-align: left;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 44px;
+}
+.contactUs .form input, .contactUs .form textarea{
+    padding: 5px 10px;
+    width: 100%;
+}
+.contactUs .form img{
+    width: 100%;
+}
+.contactUs .form .email-input{
+    margin: 36px 0;
+}

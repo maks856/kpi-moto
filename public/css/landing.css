@@ -1,0 +1,62 @@
+.hero{
+    background: url(../src/hero.png) center center no-repeat;
+}
+.history{
+    margin-top: -1px;
+}
+
+.history .text .heading, .latest .text .heading{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 59px;
+    color: #FFFFFF;
+}
+.history .text .description, .latest .text .description{
+    font-size: 16px;
+    line-height: 24px;
+    color: #D2D2D2;
+    text-transform: uppercase;
+}
+.history .text .green-text, .history .text .heading, .latest .text{
+    text-align: center;
+}
+.history .text .green-text p, .latest .text .green-text p{
+    line-height: 30px;
+    margin: 20px 0 0;
+}
+.history .historyImg{
+    width: 100%;
+    max-width: 550px;
+    float: right;
+}
+
+
+.latest .text{
+    margin: 0 auto;
+    margin-bottom: 40px;
+    width: 60%;
+}
+.latest .bikes div{
+    padding: 0;
+
+}
+.latest .bikes img{
+    width: 100%;
+    height: 325px;
+    object-fit: cover;
+}
+.latest .bikes h4{
+    color: #fff;
+}
+
+.latest .bikes a:hover h4{
+    text-decoration: underline;
+}
+.latest .bikes a:hover img{
+    opacity: .7;
+}
+
+.dream{
+    background: url(../src/dreamBackround.png) center center no-repeat;
+    /*background-size: cover;*/
+}

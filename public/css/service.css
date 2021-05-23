@@ -1,0 +1,133 @@
+header{
+    background: #101010 !important;
+}
+.service{
+    background: url(../src/backgroundService.png) center center no-repeat;
+    background-size: cover;
+    padding-top: 120px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+@media (max-width: 770px) {
+   .service{
+       background: #0f0f0f;
+   }
+}
+.heading{
+    margin-bottom: 20px;
+}
+.service .triangle{
+    padding-bottom: 0.7em;
+    padding-right: 10px;
+}
+.service .oneLink{
+    margin-bottom: 10px;
+}
+.page-info .heading{
+    display: inline;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 44px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.service .page-name h1{
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 90px;
+}
+.service .page-name img{
+    width: 100%;
+    padding-bottom: 30px;
+}
+.service .page-name hr{
+    width: 30%;
+    opacity: 1;
+    background: #B6E925;
+    border: 2px solid #B6E925;
+
+}
+.service .text .description{
+    margin-bottom: 70px;
+}
+.service .text .description p{
+    font-size: 14px;
+    line-height: 21px;
+}
+.service .page-info{
+    margin-bottom: 100px;
+}
+.button-view a:hover{
+    background: #fff;
+    color: #000 !important;
+}
+.service .button-view{
+    margin-top: 85px;
+}
+.service .button-view a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 9px 10px;
+    border: #fff solid 2px;
+    color: #FFFFFF;
+    transition: .3s linear;
+}
+.serviceBlog{
+    padding: 70px 0;
+}
+.serviceBlog .blogImg img{
+    width: 100%;
+}
+.serviceBlog .inform{
+    padding-left: 70px;
+}
+.serviceBlog .heading{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 44px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+.serviceBlog p{
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.serviceBlog .details .oneLink{
+    display: flex;
+    font-weight: bold;
+}
+.serviceBlog .details .green-text2{
+    font-weight: 500;
+    font-size: 16px;
+    color: #B6E925;
+    text-transform: uppercase;
+    margin-top: 14px;
+}
+.serviceBlog .triangle{
+    width: 20px;
+    padding-bottom: 1em;
+    padding-right: 7px;
+}
+.serviceBlog .description p{
+    margin-bottom: 30px;
+}
+.partners .logotype{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    /*height: 100%;*/
+}
+.partners{
+    margin-bottom: 70px;
+}
+.hero{
+    background: url(../src/backgroundBMW.png) center center no-repeat;
+    /*box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.5);*/
+    /*background-size: cover;*/
+    /*z-index: 0;*/
+    /*background-attachment: fixed;*/
+    /*text-align: center;*/
+    /*!*width: 100%;*!*/
+}
