@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/css/style.css">
     @yield('css')
     <link rel="shortcut icon" href="./src/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="./src/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./src/favicon.ico" type="image/x-icon">
 
     <title>KPI Moto - @yield('title')</title>
 </head>
@@ -61,10 +61,10 @@
                     <img class="logo" src="/src/logo.png" alt="logo">
                     <p>Український сервіс ремонту і продажу мотобайків</p>
                     <div class="social">
-                        <a href="#"> <img src="/src/twitter.svg" alt="twitter"></a>
-                        <a href="#"> <img src="/src/sanpchat.svg" alt="sanpchat"></a>
-                        <a href="#"> <img src="/src/facebook.svg" alt="facebook"></a>
-                        <a href="#"> <img src="/src/instagram.svg" alt="instagram"></a>
+                        <a href="https://twitter.com/"> <img src="/src/twitter.svg" alt="twitter"></a>
+                        <a href="https://www.snapchat.com/"> <img src="/src/sanpchat.svg" alt="sanpchat"></a>
+                        <a href="https://www.facebook.com/"> <img src="/src/facebook.svg" alt="facebook"></a>
+                        <a href="https://www.instagram.com/"> <img src="/src/instagram.svg" alt="instagram"></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 contact-footer">

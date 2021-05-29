@@ -9,8 +9,17 @@ use Illuminate\Foundation\Auth\User;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Route;
 
+Route::get('/login', function(){
+    return view('index');
+});
+Route::get('/login/add', 'App\Http\Controllers\MainController@login')->name('login');
+
+
+
 Route::get('/catalogue', [CatalogueController::class, 'index']);
+Route::get('/catalogue', [CatalogueController::class, 'allData']);
 Route::get('/', [LandingController::class, 'index']);
+Route::get('/', [LandingController::class, 'allData']);
 Route::get('/contact', [ContactController::class, 'index']);
 Route::get('/about', function(){
     return view('about');
@@ -19,6 +28,10 @@ Route::get('/service', function(){
     return view('service');
 });
 Route::get('/contact/add', 'App\Http\Controllers\ContactController@add')->name('addcontacts');
+Route::get('/prod', function(){
+    $motoos = Motoo::find($_GET['id']);
+    return view('product',compact('motoos'));
+})->name('prod');
 
 
 
@@ -77,12 +90,4 @@ Route::get('/Add/Buy', function () {
     return view('/addbuy');
 })->name('addbuy');
 Route::get('/app/buy', 'App\Http\Controllers\MainController@appbuy')->name('appbuy');
-
-
-
-
-
-
-
-
 

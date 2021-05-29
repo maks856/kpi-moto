@@ -50,6 +50,12 @@
                 <i class="icon-unlock"></i><input type="number" placeholder="Цена..." name="pricee">
             </div>
             <div class="blockinput">
+                <i class="icon-unlock"></i><input type="text" placeholder="Описание..." name="opisanie">
+            </div>
+            <div class="blockinput">
+                <i class="icon-unlock"></i><input type="text" placeholder="Краткое описание..." name="kratkoeopisanie">
+            </div>
+            <div class="blockinput">
                 <i class="icon-unlock"></i><input type="file" name="image" placeholder="Загрузите картинку..." >
             </div>
         </div>

@@ -43,7 +43,7 @@ function closeMenu(){
     }
 }
 window.addEventListener('scroll', function() {
-    if(pageYOffset >= 100){
+    if(pageYOffset >= 50){
         document.getElementById('header').style.background = "#101010"
     }
     else{

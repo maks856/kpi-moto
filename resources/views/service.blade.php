@@ -24,19 +24,19 @@
           <div class="details">
             <div class="oneLink">
               <img class="triangle" src="./src/triangle.svg" alt="triangle">
-              <h3 class="heading">Посилання</h3>
+              <h3 class="heading">Швидко</h3>
             </div>
             <div class="oneLink">
               <img class="triangle" src="./src/triangle.svg" alt="triangle">
-              <h3 class="heading">Посилання</h3>
+              <h3 class="heading">Якісно</h3>
             </div>
             <div class="oneLink">
               <img class="triangle" src="./src/triangle.svg" alt="triangle">
-              <h3 class="heading">Посилання</h3>
+              <h3 class="heading">Зручно</h3>
             </div>
             <div class="oneLink">
               <img class="triangle" src="./src/triangle.svg" alt="triangle">
-              <h3 class="heading">Посилання</h3>
+              <h3 class="heading">Приємно</h3>
             </div>
             <div class="button-view"><a href="/catalogue">Переглянути наші роботи</a></div>
           </div>
@@ -94,24 +94,24 @@
       <div class="col-md-6 inform">
         <h3 class="heading">Модифікація мотоцикла</h3>
         <div class="description">
-          <p>Наш Сервіс надає можливість всім бажающим завомити тюнінг, Ремонт а також взяти на тест-драйв наявні мотоцикли та передивитися портфоліо вже раніше зроблених мотоциклів</p>
+          <p>Сервіс надає можливість всім бажаючим власникам байків зробити свого підлеглого ще потужнішим та витонченішим для більшого ефекту справення незабутнього першого враження.</p>
         </div>
         <div class="details">
           <div class="oneLink">
             <img class="triangle" src="./src/triangle.svg" alt="triangle">
-            <p>Посилання</p>
+            <p>Тюнінг</p>
           </div>
           <div class="oneLink">
             <img class="triangle" src="./src/triangle.svg" alt="triangle">
-            <p>Посилання</p>
+            <p>Ремонт</p>
           </div>
           <div class="oneLink">
             <img class="triangle" src="./src/triangle.svg" alt="triangle">
-            <p>Посилання</p>
+            <p>Тест-драйв</p>
           </div>
           <div class="oneLink">
             <img class="triangle" src="./src/triangle.svg" alt="triangle">
-            <p>Посилання</p>
+            <p>Незабутні емоції</p>
           </div>
           <p class="green-text2">ОСНОВНА ІНФОРМАЦІЯ</p>
         </div>
@@ -124,25 +124,26 @@
       <div class="col-md-6 inform">
         <h3 class="heading">Обслуговування</h3>
         <div class="description">
-          <p>Наш Сервіс надає можливість всім бажающим завомити тюнінг, Ремонт а також взяти на тест-драйв наявні мотоцикли та передивитися портфоліо вже раніше зроблених мотоциклів</p>
+          <p>Приємні посмішки та професійне ставлення наших механіків змусять вас не залишатись осторонь та не відмовлятись від обслуговування вашого красеня саме в нашому сервісі. Так як клієнт для нас - все.</p>
         </div>
         <div class="details">
           <div class="oneLink">
             <img class="triangle" src="./src/triangle.svg" alt="triangle">
-            <p>Посилання</p>
+            <p>Привітний сервіс</p>
           </div>
           <div class="oneLink">
             <img class="triangle" src="./src/triangle.svg" alt="triangle">
-            <p>Посилання</p>
+            <p>Професіональний підхід до роботи</p>
           </div>
           <div class="oneLink">
             <img class="triangle" src="./src/triangle.svg" alt="triangle">
-            <p>Посилання</p>
+            <p>Гуманне ставлення до клієнтів</p>
           </div>
           <div class="oneLink">
             <img class="triangle" src="./src/triangle.svg" alt="triangle">
-            <p>Посилання</p>
+            <p>Приємні враження</p>
           </div>
+            <p class="green-text2">ОСНОВНА ІНФОРМАЦІЯ</p>
         </div>
       </div>
     </div>
@@ -153,25 +154,26 @@
       <div class="col-md-6 inform">
         <h3 class="heading">Запчастини</h3>
         <div class="description">
-          <p>Наш Сервіс надає можливість всім бажающим завомити тюнінг, Ремонт а також взяти на тест-драйв наявні мотоцикли та передивитися портфоліо вже раніше зроблених мотоциклів</p>
+          <p>Співпраця з гучними назвами брендів дає можливість легкого конкурування з іншими сервісами, а підхід до роботи і зовсім перетворює нашу справу у безконкурентну. Вважаєш по-іншому? Тоді приходь особисто та переконайся на власні очі.</p>
         </div>
         <div class="details">
           <div class="oneLink">
             <img class="triangle" src="./src/triangle.svg" alt="triangle">
-            <p>Посилання</p>
+            <p>Оригінальні запчастини</p>
           </div>
           <div class="oneLink">
             <img class="triangle" src="./src/triangle.svg" alt="triangle">
-            <p>Посилання</p>
+            <p>Постачальники запчастин світових гігантів</p>
           </div>
           <div class="oneLink">
             <img class="triangle" src="./src/triangle.svg" alt="triangle">
-            <p>Посилання</p>
+            <p>Професійний підхід</p>
           </div>
           <div class="oneLink">
             <img class="triangle" src="./src/triangle.svg" alt="triangle">
-            <p>Посилання</p>
+            <p>Вдячні клієнти</p>
           </div>
+            <p class="green-text2">ОСНОВНА ІНФОРМАЦІЯ</p>
         </div>
       </div>
     </div>
@@ -180,27 +182,28 @@
         <img src="src/construct.png" alt="construct">
       </div>
       <div class="col-md-6 inform">
-        <h3 class="heading">Сборка мотоцикла</h3>
+        <h3 class="heading">Констуювання мотоцикла</h3>
         <div class="description">
-          <p>Наш Сервіс надає можливість всім бажающим завомити тюнінг, Ремонт а також взяти на тест-драйв наявні мотоцикли та передивитися портфоліо вже раніше зроблених мотоциклів</p>
+          <p>Головною перевагою нашого сервісу є можливість клієнта самому скласти свій байк комбінуючи сильні сторони та запчастини всіма нами відомих виробників.</p>
         </div>
         <div class="details">
           <div class="oneLink">
             <img class="triangle" src="./src/triangle.svg" alt="triangle">
-            <p>Посилання</p>
+            <p>Втілення бажань у мрію</p>
           </div>
           <div class="oneLink">
             <img class="triangle" src="./src/triangle.svg" alt="triangle">
-            <p>Посилання</p>
+            <p>Поєднання краси з потужністю</p>
           </div>
           <div class="oneLink">
             <img class="triangle" src="./src/triangle.svg" alt="triangle">
-            <p>Посилання</p>
+            <p>Підбір кожної запчастини під смак клієнта</p>
           </div>
           <div class="oneLink">
             <img class="triangle" src="./src/triangle.svg" alt="triangle">
-            <p>Посилання</p>
+            <p>Незрівнянний результат</p>
           </div>
+            <p class="green-text2">ОСНОВНА ІНФОРМАЦІЯ</p>
         </div>
       </div>
     </div>

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 
+use App\Models\admin;
 use App\Models\Buy;
 use App\Models\Motoo;
 use App\Models\User;
@@ -54,7 +55,8 @@ class MainController extends Controller
         $motoos->namemoto = $request->namee;
         $motoos->length = $request->lengthh;
         $motoos->price = $request->pricee;
-
+        $motoos->short = $request->kratkoeopisanie;
+        $motoos->description = $request->opisanie;
         $motoos->save();
         return view('/addmoto', compact('a'));
     }
@@ -106,7 +108,15 @@ class MainController extends Controller
         return view('/personal', ['users' => User::find(1)->get()]);
     }
 
+    public function login(Request $request){
 
+        $test = admin::find(1);
+        if ($test->email !== $request->email && $test->password !== $request->pass){
+            return view('/index');
+        }else {
+            return view('/personal', ['users' => User::orderby('name')->get()]);
+        }
+    }
 
 
 }

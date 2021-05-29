@@ -1,4 +1,9 @@
 @extends('layout_personal')
+@section('css')
+<link rel="stylesheet" href="./css/reset.css">
+<link rel="stylesheet" href="./css/personal.css">
+<link rel="stylesheet" href="./css/podverzhdenie.css">
+@stop
 @section('content')
     <table>
         <thead>
@@ -24,4 +29,4 @@
             <p>Похожего имени пользователя не найдено!</p>
         @endif
     </table>
-@stop
+@endsection

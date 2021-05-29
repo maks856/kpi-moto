@@ -98,50 +98,21 @@
                  </div>
             </div>
             <div class="row bikes">
-                <div class="col-md-6">
-                    <a href="#">
-                        <img src="/src/customBike3.jpg" alt="latestBike1">
-                        <h4>Sud Mirbl Sind</h4>
-                        <p class="green-text price">2500$</p>
-                    </a>
-                </div>
-                <div class="col-md-3">
-                    <a href="#">
-                        <img src="/src/customBike4.jpg" alt="latestBike1">
-                        <h4>Sud Mirbl Sind</h4>
-                        <p class="green-text price">2500$</p>
-                    </a>
-                </div>
-                <div class="col-md-3">
-                    <a href="#">
-                        <img src="/src/customBike8.jpg" alt="latestBike1">
-                        <h4>Sud Mirbl Sind</h4>
-                        <p class="green-text price">2500$</p>
-                    </a>
-                </div>
-            </div>
-            <div class="row bikes">
-                <div class="col-md-3">
-                    <a href="#">
-                        <img src="/src/customBike9.jpg" alt="latestBike1">
-                        <h4>Sud Mirbl Sind</h4>
-                        <p class="green-text price">2500$</p>
-                    </a>
-                </div>
-                <div class="col-md-3">
-                    <a href="#">
-                        <img src="/src/customBike5.jpg" alt="latestBike1">
-                        <h4>Sud Mirbl Sind</h4>
-                        <p class="green-text price">2500$</p>
-                    </a>
-                </div>
-                <div class="col-md-6">
-                    <a href="#">
-                        <img src="/src/customBike1.jpg" alt="latestBike1">
-                        <h4>Sud Mirbl Sind</h4>
-                        <p class="green-text price">2500$</p>
-                    </a>
-                </div>
+
+                @foreach($data as $element)
+                    @if($element->id == 1 || $element->id == 6)
+                        <div class="col-md-6">
+                    @else
+                        <div class="col-md-3">
+                    @endif
+                        <a href="{{route('prod')}}?id={{$element->id}}">
+                            @php $var = base64_encode($element->img) @endphp
+                            <img src="data:image/jpeg;base64, <?php echo $var?>" alt="latestBike1">
+                            <h4>{{$element->namemoto}}</h4>
+                            <p class="green-text price">{{$element->price}}$</p>
+                        </a>
+                    </div>
+                @endforeach
             </div>
         </div>
     </section>

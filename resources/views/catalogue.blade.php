@@ -46,7 +46,7 @@
                             <li><img src="./src/sand-clock.svg" alt="Motorcycle"> <p>4-5 місяці</p></li>
                             <li><img src="./src/money.svg" alt="Motorcycle"> <p>$8,400</p></li>
                         </ul>
-                        <a class="buy-button" href="/contact#buy">Купить зараз</a>
+                        <a class="buy-button" href="/contact#buy">Купити зараз</a>
                     </div>
                 </div>
             </div>
@@ -56,78 +56,21 @@
     <section class="product-block">
         <div class="container">
             <div class="row product-list">
+            @foreach($data as $element)
                 <div class="col-md-6 product-item">
-                    <a href="#">
-                        <img src="./src/customBike1.jpg" alt="latestBike1">
+                    <a href="{{route('prod')}}?id={{$element->id}}">
+                        @php $var = base64_encode($element->img) @endphp
+                        <img src="data:image/jpeg;base64, <?php echo $var?>" alt="latestBike1">
                         <div class="text">
-                            <h4>Sud Mirbl Sind</h4>
+                            <h4>{{$element->namemoto}}</h4>
                             <div class="price-block">
-                                <p class="green-text price">2500$</p>
+                                <p class="green-text price">{{$element->price}}$</p>
                                 <p class="green-text detail">Деталі <span class="triangle">&#9660;</span></p>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-md-6 product-item">
-                    <a href="#">
-                        <img src="./src/customBike2.jpg" alt="latestBike1">
-                        <div class="text">
-                            <h4>Sud Mirbl Sind</h4>
-                            <div class="price-block">
-                                <p class="green-text price">2500$</p>
-                                <p class="green-text detail">Деталі <span class="triangle">&#9660;</span></p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-6 product-item">
-                    <a href="#">
-                        <img src="./src/customBike3.jpg" alt="latestBike1">
-                        <div class="text">
-                            <h4>Sud Mirbl Sind</h4>
-                            <div class="price-block">
-                                <p class="green-text price">2500$</p>
-                                <p class="green-text detail">Деталі <span class="triangle">&#9660;</span></p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-6 product-item">
-                    <a href="#">
-                        <img src="./src/customBike5.jpg" alt="latestBike1">
-                        <div class="text">
-                            <h4>Sud Mirbl Sind</h4>
-                            <div class="price-block">
-                                <p class="green-text price">2500$</p>
-                                <p class="green-text detail">Деталі <span class="triangle">&#9660;</span></p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-6 product-item">
-                    <a href="#">
-                        <img src="./src/customBike8.jpg" alt="latestBike1">
-                        <div class="text">
-                            <h4>Sud Mirbl Sind</h4>
-                            <div class="price-block">
-                                <p class="green-text price">2500$</p>
-                                <p class="green-text detail">Деталі <span class="triangle">&#9660;</span></p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-6 product-item">
-                    <a href="#">
-                        <img src="./src/customBike9.jpg" alt="latestBike1">
-                        <div class="text">
-                            <h4>Sud Mirbl Sind</h4>
-                            <div class="price-block">
-                                <p class="green-text price">2500$</p>
-                                <p class="green-text detail">Деталі <span class="triangle">&#9660;</span></p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
+            @endforeach
             </div>
         </div>
     </section>
@@ -146,6 +89,4 @@
             </div>
         </div>
     </section>
-
-
 @endsection

@@ -72,7 +72,7 @@
                     <input type="text" name="namee" placeholder="Повне ім'я">
                     <input class="email-input" type="email" name="emaill" placeholder="Ваш E-mail">
                     <textarea name="message" id="message" placeholder="Ваше повідомлення"></textarea>
-                    <button class="button-view">Підписатись</button>
+                    <button class="button-view">Відправити</button>
                 </div>
                 <div class="col-md-6">
                     <img src="/src/bike1.png" alt="Main Bike">
